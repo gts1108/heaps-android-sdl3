@@ -2,6 +2,12 @@
 A barebones Heaps.io app that Could Technically Work But I Can't Be Sure, based on SDL3 template Android project. Uses SDL3 and OpenAL.
 
 ## Installation
+Relies on SDL 3.2.20, may crash or not build at all in other versions.
+Make sure to add `--recurse-submodules` before cloning the repo:
+```bash
+git clone --recurse-submodules https://github.com/kr0tyara/heaps-android-sdl3.git
+```
+
 To build the project, do this:
 ```bash
 haxe android.hxml
@@ -13,6 +19,8 @@ If everything goes well, the built apk will appear in `android/app/build/outputs
 ## Points of interest
 `android/keystore.properties` - keystore properties for signing the release build
 
-`android/app/build.gradle` (not to be confused with `android/build.gradle`) - gradle configuration, package name and other
+`android/app/build.gradle` (not to be confused with `android/build.gradle`) - gradle configuration, package name, build architectures and other
 
 `android/app/res/values/strings.xml` - to change the app name
+
+Use Android Studio to change the app icon.
