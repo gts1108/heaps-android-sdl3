@@ -1,0 +1,9 @@
+common.hxml
+
+-lib format
+-lib hlsdl
+-lib hlopenal
+
+-D android
+
+-hl android/app/jni/src/hlc/game.c
