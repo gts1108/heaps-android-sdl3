@@ -2,12 +2,6 @@
 A barebones Heaps.io app that Could Technically Work But I Can't Be Sure, based on SDL3 template Android project. Uses SDL3 and OpenAL.
 
 ## Installation
-The app crashes on the latest version of SDL. You need to manually rebase SDL to version 3.2.20 like this:
-```bash
-git -C android/app/jni/SDL checkout release-3.2.20
-```
-Other than that, it should work out of the box.
-
 To build the project, do this:
 ```bash
 haxe android.hxml
