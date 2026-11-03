@@ -18,5 +18,7 @@ If everything goes well, the built apk will appear in `android/app/build/outputs
 
 ## Points of interest
 `android/keystore.properties` - keystore properties for signing the release build
+
 `android/app/build.gradle` (not to be confused with `android/build.gradle`) - gradle configuration, package name and other
+
 `android/app/res/values/strings.xml` - to change the app name
