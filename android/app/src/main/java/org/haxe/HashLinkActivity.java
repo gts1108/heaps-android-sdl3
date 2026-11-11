@@ -2,6 +2,7 @@ package org.haxe;
 
 import org.libsdl.app.SDLActivity;
 
+
 public class HashLinkActivity extends SDLActivity
 {
     @Override
