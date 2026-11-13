@@ -105,8 +105,7 @@ target_include_directories(mikktspace PUBLIC
 
 # HashLink 1.16
 FetchContent_Declare(hashlink
-  URL https://github.com/HaxeFoundation/hashlink/archive/refs/tags/1.16.zip
-  URL_HASH SHA256=7B48E3AA7D67919DDB22DF0A36223EB4A40CAABAE728024B637EA5784BB87B28
+  URL https://github.com/gts1108/hashlink/archive/refs/tags/1.16.zip
   DOWNLOAD_EXTRACT_TIMESTAMP TRUE
   SOURCE_SUBDIR _no_cmake_)
 FetchContent_MakeAvailable(hashlink)
